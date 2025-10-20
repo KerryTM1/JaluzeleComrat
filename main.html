@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title data-i18n-key="title">JaluzeleComrat</title>
+    <meta name="description" data-i18n-key="metaDescription" content="Современный прототип сайта для производителя жалюзи и рулонных штор: каталог, портфолио, быстрый заказ и адаптивный дизайн." />
+    <link rel="shortcut icon" type="image/x-icon" href="IMG_7565.JPG">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="blinds-overlay" class="blinds-overlay"></div>
+
+<header>
+    <div class="nav container">
+        <div class="nav-left">
+            <a href="#" class="logo">
+                <span class="logo-text" id="logo-J">J</span>
+                <span class="logo-text" id="logo-C">C</span>
+            </a>
+        </div>
+        <div class="nav-contact" id="nav-contact-info">
+            <span class="nav-phone">+373 68 123 456</span>
+            <span class="nav-schedule">Пн-Пт: 9:00 - 18:00</span>
+        </div>
+        <div class="nav-right">
+            <button id="theme-toggle" style="background:none; border:none; cursor:pointer; font-size:24px; color:var(--text-primary); transition: color 0.5s; padding: 0;">
+                <img id="toggle-icon"
+                     src="photo"
+                     data-icon-light="photo/free-icon-sun-2529883.png"
+                     data-icon-dark="photo/free-icon-moons-4129208.png"
+                     style="width: 28px; height: 28px; display: block; filter: var(--filter-toggle);"
+                     alt="Theme toggle"
+                >
+            </button>
+
+
+
+            <nav>
+                <ul>
+                    <li><a href="#catalog" data-i18n-key="navCatalog">Каталог</a></li>
+                    <li><a href="#portfolio" data-i18n-key="navPortfolio">Портфолио</a></li>
+                    <li><a href="#about" data-i18n-key="navAbout">О компании</a></li>
+                    <li><a href="#about" data-i18n-key="navContact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="top-gallery">
+    <div class="bg-img-text">
+        <div class="hero-text-content">
+            <div class="hero-title" data-i18n-key="heroTitle">Качественные жалюзи</div>
+            <div class="hero-subtitle" data-i18n-key="heroSubtitle">Создаем уют и комфорт в вашем доме <br> с помощью современных оконных решений</div>
+        </div>
+        <a href="#catalog" class="cta cta-hero-right" data-i18n-key="navCatalog">Каталог</a>
+    </div>
+    <div class="gallery-item"><img src="photo/4146.jpg" alt="Рулонная штора в интерьере"></div>
+</div>
+
+<main class="container">
+
+    <section id="catalog" style="margin-top:24px">
+        <h3 class="catalog-title" data-i18n-key="catalogTitle">Каталог товаров</h3>
+        <div class="grid catalog-grid">
+
+            <div class="product-card p1">
+                <a href="#catalog">
+                    <div class="product-img-wrapper">
+                        <img src="photo/photo_2025-10-16_22-52-29.jpg">
+                        <div class="product-text-overlay">
+                            <h4 data-i18n-key="prodDayNight">День-ночь</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="#catalogr">
+                    <div class="product-img-wrapper">
+                        <img src="photo/photo_2025-10-16_22-52-26.jpg">
+                        <div class="product-text-overlay">
+                            <h4 data-i18n-key="prodRoll">Рулонные шторы</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="#catalogr">
+                    <div class="product-img-wrapper">
+                        <img src="photo/4146.jpg">
+                        <div class="product-text-overlay">
+                            <h4 data-i18n-key="prodPlise">Жалюзи Plise</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="#catalog">
+                    <div class="product-img-wrapper">
+                        <img src="photo/photo_2025-10-16_22-52-29.jpg">
+                        <div class="product-text-overlay">
+                            <h4 data-i18n-key="prodNobles">Шторы Nobles</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="#catalog">
+                    <div class="product-img-wrapper .product-img-wrapper ">
+                        <img src="photo//photo_2025-10-16_22-52-29.jpg">
+                        <div class="product-text-overlay">
+                            <h4 data-i18n-key="prodRoman">Римские шторы</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-card">
+                <a href="#catalog">
+                    <div class="product-img-wrapper .product-img-wrapper ">
+                        <img src="photo/photo_2025-10-16_22-52-29.jpg">
+                        <div class="product-text-overlay">
+                            <h4 data-i18n-key="prodMosquito">Москитные сетки Plise</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="services" style="margin-top:48px">
+        <div class="container">
+            <div class="grid services-grid">
+                <div class="service-card">
+                    <h3 class="service-title" data-i18n-key="servicesTitle1">Бесплатный замер</h3>
+                    <p class="service-description" data-i18n-key="servicesText1">Наш специалист приедет к вам домой и произведет точные замеры окон совершенно бесплатно.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="service-title" data-i18n-key="servicesTitle2">Дизайн-консультация</h3>
+                    <p class="service-description" data-i18n-key="servicesText2">Поможем подобрать идеальные жалюзи под ваш интерьер и предпочтения.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="service-title" data-i18n-key="servicesTitle3">Изготовление на заказ</h3>
+                    <p class="service-description" data-i18n-key="servicesText3">Производим жалюзи точно по вашим размерам с использованием качественных материалов.</p>
+                </div>
+                <div class="service-card with-icon">
+                    <div class="service-icon-wrapper">
+                        <img src="photo/install-icon.svg" alt="Иконка установки">
+                    </div>
+                    <h3 class="service-title" data-i18n-key="servicesTitle4">Профессиональная установка</h3>
+                    <p class="service-description" data-i18n-key="servicesText4">Быстрая и качественная установка с гарантией на выполненные работы.</p>
+                </div>
+                <div class="service-card with-icon">
+                    <div class="service-icon-wrapper">
+                        <img src="photo/warranty-icon.svg" alt="Иконка гарантии">
+                    </div>
+                    <h3 class="service-title" data-i18n-key="servicesTitle5">Гарантийное обслуживание</h3>
+                    <p class="service-description" data-i18n-key="servicesText5">Предоставляем гарантию на все виды работ и материалы.</p>
+                </div>
+                <div class="service-card with-icon">
+                    <div class="service-icon-wrapper">
+                        <img src="photo/support-icon.svg" alt="Иконка поддержки">
+                    </div>
+                    <h3 class="service-title" data-i18n-key="servicesTitle6">Послепродажная поддержка</h3>
+                    <p class="service-description" data-i18n-key="servicesText6">Консультации по уходу и обслуживанию, ремонт при необходимости.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-banner">
+        <div class="container">
+            <h2 data-i18n-key="ctaBannerTitle">Готовы преобразить ваш дом?</h2>
+            <p data-i18n-key="ctaBannerText">Закажите бесплатный замер уже сегодня!</p>
+            <a href="#contacts" class="cta-banner-button" data-i18n-key="ctaBannerButton">Заказать замер</a>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="hero-card">
+            <h2 data-i18n-key="heroSubtitleLarge">Качественные жалюзи и рулонные шторы — под ваши размеры</h2>
+            <p data-i18n-key="heroText">Производим, монтируем и обслуживаем. Бесплатный выезд замерщика и быстрые сроки.</p>
+        </div>
+
+        <aside class="hero-card">
+            <h3 data-i18n-key="sliderTitle">Наши лучшие работы</h3>
+
+            <div class="works-slider-container">
+                <div class="slides-wrapper" id="works-slider-wrapper">
+                    <div class="slide"><img src="photo/4146.jpg" alt="Работа 1: Жалюзи День-ночь"></div>
+                    <div class="slide"><img src="photo/photo_2025-10-16_22-52-26.jpg" alt="Работа 2: Жалюзи Plise"></div>
+                    <div class="slide"><img src="photo/photo_2025-10-16_22-52-29.jpg" alt="Работа 3: Римские шторы"></div>
+                </div>
+                <button class="slider-nav-button prev-button" id="prev-slide">‹</button>
+                <button class="slider-nav-button next-button" id="next-slide">›</button>
+            </div>
+
+            <a class="cta secondary" href="#portfolio" data-i18n-key="navPortfolio">Смотреть все работы</a>
+        </aside>
+    </section>
+
+    <section id="about" style="margin-top:48px">
+        <div class="about-container">
+            <div class="about-image-wrapper">
+                <img src="photo/photo_2025-10-16_22-52-29.jpg" alt="Команда устанавливает жалюзи">
+                <div class="experience-badge" data-i18n-key="experienceBadge">
+                    5+<br>лет опыта
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 data-i18n-key="aboutCompanyName">О компании JC - JALUZELE COMRAT</h2>
+                <p data-i18n-key="aboutTextLong1">Мы - ведущая компания в Комрате, специализирующаяся на производстве и установке качественных жалюзи день-ночь и плиссе. За годы работы мы завоевали доверие сотен клиентов благодаря высокому качеству продукции и профессиональному сервису.</p>
+                <p data-i18n-key="aboutTextLong2">Наша команда состоит из опытных специалистов, которые знают все тонкости производства и установки оконных покрытий. Мы используем только качественные материалы и современное оборудование.</p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="photo/free-icon-whatsapp-1384095.png" alt="Иконка качества" style="width: 24px; height: 24px; filter: var(--filter-toggle);">
+                        </div>
+                        <div>
+                            <h4 data-i18n-key="aboutHighQualityTitle">Высокое качество</h4>
+                            <p data-i18n-key="aboutHighQualityText">Используем только проверенные материалы от ведущих производителей.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="photo/time-icon.svg" alt="Иконка времени" style="width: 24px; height: 24px; filter: var(--filter-toggle);">
+                        </div>
+                        <div>
+                            <h4 data-i18n-key="aboutFastTermsTitle">Быстрые сроки</h4>
+                            <p data-i18n-key="aboutFastTermsText">Изготовление и установка в течение 3-5 рабочих дней.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="photo/price-icon.svg" alt="Иконка цены" style="width: 24px; height: 24px; filter: var(--filter-toggle);">
+                        </div>
+                        <div>
+                            <h4 data-i18n-key="aboutAffordablePricesTitle">Доступные цены</h4>
+                            <p data-i18n-key="aboutAffordablePricesText">Конкурентные цены без переплат и скрытых комиссий.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <img src="photo/free-icon-moons-4129208.png" alt="Иконка индивидуального подхода" style="width: 24px; height: 24px; filter: var(--filter-toggle);">
+                        </div>
+                        <div>
+                            <h4 data-i18n-key="aboutIndividualApproachTitle">Индивидуальный подход</h4>
+                            <p data-i18n-key="aboutIndividualApproachText">Учитываем все ваши пожелания и особенности интерьера.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-banner">
+        <div class="stats-grid container">
+            <div class="stat-item">
+                <span class="stat-number" data-i18n-key="statsClientsNumber">500+</span>
+                <p class="stat-label" data-i18n-key="statsClientsLabel">Довольных клиентов</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-i18n-key="statsYearsNumber">5+</span>
+                <p class="stat-label" data-i18n-key="statsYearsLabel">Лет на рынке</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-i18n-key="statsOrdersNumber">1000+</span>
+                <p class="stat-label" data-i18n-key="statsOrdersLabel">Выполненных заказов</p>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-i18n-key="statsGuaranteeNumber">100%</span>
+                <p class="stat-label" data-i18n-key="statsGuaranteeLabel">Гарантия качества</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="intro-section container">
+        <div class="intro-content">
+            <h2 data-i18n-key="introTitle">ЖАЛЮЗИ, КОТОРЫЕ ДЕЛАЮТ СВЕТ УДОБНЫМ ДЛЯ ВАС.</h2>
+            <p data-i18n-key="introText">Компания JaluzeleComrat успешно зарекомендовала себя на рынке Молдовы. Мы ориентированы на удовлетворение потребностей и желаний каждого клиента. Наша команда состоит из профессионалов с многолетним опытом работы в данной области, и на протяжении всего времени состав нашего коллектива остается практически неизменным. У нас представлен самый широкий ассортимент жалюзи, тканей и солнцезащитных систем в Молдове.</p>
+        </div>
+        <div class="intro-image-wrapper">
+            <img src="photo/4146.jpg" alt="Производство жалюзи">
+        </div>
+    </section>
+
+
+
+    <section id="about" style="margin-top:24px">
+        <div class="grid" style="grid-template-columns:1fr 1fr;gap:12px;">
+            <div class="hero-card">
+                <h3 data-i18n-key="aboutTitle">О компании</h3>
+                <p data-i18n-key="aboutText">Собственное производство, монтаж, сервис. Быстрая логистика и точность размеров.</p>
+            </div>
+            <div class="hero-card">
+                <h3 data-i18n-key="contactTitle">Контакты</h3>
+                <p data-i18n-key="contactAddress">Адрес: г. Комрат</p>
+                <p data-i18n-key="contactPhone">Тел: +373 00 000 000</p>
+                <a href="tel:+37300000000" class="cta" style="margin-top: 15px;" data-i18n-key="footerCall">Позвонить</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <strong>JaluzeleComrat</strong>
+        <div class="small muted" data-i18n-key="footerTagline">Производство жалюзи и штор в Молдове</div>
+    </div>
+</footer>
+
+<div id="whatsappPopover" class="whatsapp-popover">
+    <div class="popover-header">
+        <h4 data-i18n-key="whatsappModalTitle">Написать нам в WhatsApp</h4>
+        <button id="closeWhatsappPopover" class="popover-close-btn">✕</button>
+    </div>
+    <form id="whatsappFormPopover">
+        <p data-i18n-key="whatsappModalText" class="popover-text">Введите ваше сообщение, и мы перейдем в чат.</p>
+        <textarea id="whatsappMessagePopover" class="input" rows="3" required data-i18n-placeholder="whatsappPlaceholder"></textarea>
+        <button class="cta cta-whatsapp-send" type="submit" data-i18n-key="formSendMessage">Начать чат</button>
+    </form>
+</div>
+
+<div class="bottom-cta">
+    <div data-i18n-key="ctaFreeMeasure">Бесплатный выезд замерщика</div>
+    <a href="#" class="cta whatsapp-cta whatsapp-popover-trigger" id="cta-bottom-button">WhatsApp</a>
+</div>
+
+<div class="fixed-bottom-right">
+    <div class="lang-dropdown-container">
+        <button class="lang-current-display" id="lang-display" data-i18n-key="lang-ru">Ru</button>
+        <div class="lang-dropdown-list" id="lang-list">
+            <button class="lang-button" data-lang="ru" data-i18n-key="lang-ru-full">Русский</button>
+            <button class="lang-button" data-lang="en" data-i18n-key="lang-en-full">English</button>
+            <button class="lang-button" data-lang="ro" data-i18n-key="lang-ro-full">Română</button>
+        </div>
+    </div>
+</div>
+
+<div class="blinds-overlay" id="blinds-overlay">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
